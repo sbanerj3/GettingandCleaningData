@@ -14,6 +14,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 My selection of features is based on the fact that the assignment states "Extracts only the measurements on the mean and standard deviation for each measurement." To be complete, I included all variables which had mean or std mentioned in their name.
 
+The data provided are unlabeled and can be found in the x_test.txt. The activity labels corresponding to these are in the y_test.txt file. The test subjects are in the subject_test.txt file. Similarly we have x_train, y_train and suject_train. The script merges test and train data sets and also merged the descriptive label names to create the tidy dataset. 
+
 In summary the following features are used to derive the final dataset. '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 "subject"
